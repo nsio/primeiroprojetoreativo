@@ -1,0 +1,27 @@
+{
+	"http":{
+		"port":8080
+	},
+	"db":{
+		 "url": "jdbc:postgresql://localhost:5432/holiexpress",
+		 "port" : 5432,
+		 "maxPoolSize" : 10,
+		 "user" : "postgres",
+		 "password" : "Postgres2020!",
+		 "database" : "holiexpress",
+		 "charset" : "UTF-8"
+	},
+	"googleOauth2":{
+	  "type": "service_account",
+	  "project_id": "holiexpress-api",
+	  "private_key_id": "4c1e6a19762cf2039e22e98321a82af8f261c358",
+	  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7sZgMp6t+4oEX\nfllaF0eY2A4GlNH1qB66dV6ztORHpOrxRHPz+PE0QHAPt5wiFdMh3SnR8+X4Ufby\nnTcSTDsBWbsDXeqyrTmN9f8cVFpYSPMOlk5VEWBQi/PJqyq3xFDMjCYKMrAgmU84\niZf+xqhyIgqGE6MIH0Tdtiv/Pm5jyYZM4k9dq/KsU37/OcsDoq4hEh1pr4VQftwQ\n5S2LCpOOXb2JpCKIsNAwMXKxa8M6WdeXdjIKYqECVFUmBdkWKqWaiJNF2IUWGCAB\njhFd7QsddkwEhKqVi+RzYFGYeuaR11Wt7F5fRBIjiBk0br+TvUdCfurwSMIHdQW5\nn+GfXm+5AgMBAAECggEAA3S/8r20ofO8Qkk8jnTex+D0kyjy28XiePb3zTHPwUT3\nYYVr6CplkJt+JL/yA0upFVbL8hZ+Xc3ukOWVscPPE1WKZMO6MluPs3472hLwje8b\n8KESZK0a+6i0DrrU4Mjf3wBWo/nudc803vrjnlicmetoC7N5XUksHLQBx+OnpzUy\n62sGEW6dWkfeOLZAWLcH9x4HI+XmyfjQcKBfm+zq/tcZ9UGNp5+fSN7lqovaZJ0c\naISHfg/i2c/fKoa/cBfKa3nkGUV+E7fXdpkFlUnp7eOKWwEn3WLLwQ7dE2Bc50PB\nJt7fKLtwwFoiAejM1Sh7/SDolmH+hxbTcWbkxUsl4QKBgQDmiXtiVfDzn/mJ4SbF\nOCttX+RWWePzMSgAxWCTayUOHDXovhWLPBZHpZ81yCFbTJabN4tX1BSeLVSop/14\nT0oFOpJfVNAFgSLl3SH7qDAIPrDnVbC/pYxysMVoUeAqxXei/vs1nZN33zmA4p6z\nKErXEFBgTQFyCBAv2p1gEIr4kQKBgQDQbLOrpbxrvTq4Kc0BB15JyseT2HiIBQMU\nerSno11YGWhPwrKe5hTMbXgwnoHXJnTK2jq4kYz7awpkOiqKSLYyHIqUN/mFh7dn\nIPpkdD2gvog+wNt59s4lJ9Lw3KdL66GIOpQF/yLlg7Vahluw/wd9D0DmHUt33L1z\nOw9o9obYqQKBgB765LjPQcULf3Y26oXgSX22QDIWfFqHBZAs9hB5eo5N3jS7rpt6\nZKgWKrIIhesF/Ms5CKGx319uSg0sHhTX2uOe/mKPPDExLGZldBakgGfrPMypqEno\nzlnvRWgCcLRuuugNieanmVSni8u1KIx84qnKCHMYhhQz3zD/GNz6/CHxAoGAHuzC\nC+nfdyzwlXq+TDTHrLNFwY4Q9D2qI1PBkk4O/49lhtAgqKsC0wI7HxulsEKoeaC/\nrbsK7BMJy61FupbnUbAib7OOdl2YvNiLznPg4QTkOktrRUF1fNXX2p0ixYUExq3K\nYMlmaB+OvQvKdwygE9I7kukt1W8PPRW6R5ysjWECgYBRV6w3gV2Ks2sYngk+rdB7\nEshsJHjFc6cdRFDNZt52VLCdCPsgQHvzksI2EQelYwsswp+n3PqdCQc+l/Y8FhfO\n1Ze/Qx74yhWhV8oRGu/jmXwLbBrzUjIii2LyMCvnfgvMqDWmbJftZ4vPXVDOMuyv\nuMXtkHdaV3V2FinNvL3wug==\n-----END PRIVATE KEY-----\n",
+	  "client_email": "holiexpress-api-key@holiexpress-api.iam.gserviceaccount.com",
+	  "client_id": "478981370376-evt8l76vi00rugknb913hi2r5pko0afn.apps.googleusercontent.com",
+	  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	  "token_uri": "https://oauth2.googleapis.com/token",
+	  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/holiexpress-api-key%40holiexpress-api.iam.gserviceaccount.com"
+	}
+
+}

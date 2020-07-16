@@ -1,0 +1,15 @@
+version: '2.1'
+
+services:
+  db:
+    image: postgres:alpine
+    hostname: psql
+    ports:
+      - "5432"
+    environment:
+      POSTGRES_ADMIN_PASSWORD: Postgres2020!
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Postgres2020!
+      POSTGRES_DB: holiexpress
+    volumes:
+      - ./src/main/resources/db/migration/V1.0.0__create_database.sql:/docker-entrypoint-initdb.d/V1.0.0__create_database.sql
